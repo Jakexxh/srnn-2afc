@@ -43,7 +43,7 @@ When training starts, a dir, named as the timestamp, will be generated automatic
 Please check `ResultsVisualization.ipynb` and `results_visualization.py` for details.
 
 ## Note
-The visulaliztion outputs vary for different models, but the results should be similar to those in the paper. If not, please adjust your parameters for training and also try to train multiple models to obatin the optimal results. 
+The visualization outputs vary for different models, but the results should be similar to those in the paper. If not, please firstly try to train multiple models with the same set-up to obtain the optimal results, since the white noise in the training process sometimes has an excessive impact on the training process. If still not working, plz adjust your parameters for the model, because this is a toy problem and the different running platforms and frameworks may have different outcomes. 
 
 ## License
 MIT
