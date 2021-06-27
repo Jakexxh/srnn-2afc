@@ -16,11 +16,10 @@ class Model(torch.nn.Module):
         super(Model, self).__init__()
         self.snn = snn
         self.decoder = msq_decode
-        if decoder == 'mse':
-            self.decoder = msq_decode
-        else:
-            pass
-        #     self.decoder = softmax_decode
+#         if decoder == 'mse':
+#             self.decoder = msq_decode
+#         else:
+#             self.decoder = softmax_decode
 
         self.loss_step = loss_step
 
