@@ -15,6 +15,8 @@ This SRNN implementation was built upon the Python package Norse (https://github
 
 * tensorboard
 
+## Project Structure
+<img src="SRNN-structure.png" height="500"/>
 
 ## Examples
 
